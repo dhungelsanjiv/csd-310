@@ -1,2 +1,2 @@
 # csd-310
-Its all about our class activities.
+It's all about our class activities.
