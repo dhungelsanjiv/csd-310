@@ -12,6 +12,8 @@ for student in foundstudents :
     print(f"Last Name: {student['last_name']}")
     print("")
 
+result = students.update_one ({"student_id": "1007"}, {"$set": {"last_name": "Smith"}})
+
 print("-- DISPLAYING STUDENT DOCUMENT FROM find_one() QUERY --")
 foundstudent = students.find_one({"student_id": "1007"})
 print(f"Student ID: {foundstudent['student_id']}")
