@@ -1,6 +1,6 @@
 """ 
     Title: pysports_join_queries.py
-    Author: Sanjiv Dhungel
+    Author: Professor Krasso
     Date: 12/2/2021
     Description: Test program for joining the player and team tables
 """
