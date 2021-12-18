@@ -1,6 +1,6 @@
 """ 
     Title: pysports_join_queries.py
-    Author: Sanjiv Dhungel
+    Author: Professor Krasso
     Date: 12/2/2021
     Description: Test program for joining the player and team tables
 """
@@ -36,6 +36,7 @@ try:
     # iterate over the player data set and display the results 
     for player in players:
         print("  Player ID: {}\n  First Name: {}\n  Last Name: {}\n  Team Name: {}\n".format(player[0], player[1], player[2], player[3]))
+
 
     input("\n\n  Press any key to continue... ")
 
